@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Feedback Form</title>
+</head>
+
+<body>
+  <h1>Feedback Form</h1>
+  <form name="contact" method="POST" data-netlify="true">
+    <h5>
+      <label>Your Name: <input id="formInput" type="text" name="name" /></label>
+    </h5>
+    <h5>
+      <label>Your Email: <input id="formInput" type="email" name="email" /></label>
+    </h5>
+    <h5>
+      <label>Message: <textarea name="message"></textarea></label>
+    </h5>
+    <h5>
+      <button type="submit">Send</button>
+    </h5>
+  </form>
+
+</body>
+</html>
+<style>
+  * {
+    border: 2px solid red;
+  }
+  body {
+    background-color: black;
+    width: 450px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+  }
+  h1 {
+    color: white;
+    text-align: center;
+    width: auto;
+  }
+  h5 {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 3px;
+  }
+  input {
+    width: 170px;
+    margin-top: 3px;
+
+    margin-left: 30px;
+
+  }
+  label {
+    width: auto;
+    margin: auto;
+    text-align: center;
+  }
+</style>

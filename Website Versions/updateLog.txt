@@ -1,0 +1,20 @@
+Bridge Tap Calculator
+*********************
+Version Update Log
+*********************
+_____________________
+Version 1
+
+The original bridge tap calculator
+_____________________
+Version 2
+
+Updated .css file
+_____________________
+Version 3
+
+Added link to bridge tap My Knowledge Guide
+_____________________
+Version 4
+
+Added calculation into the alert function for agents to add to their notes
