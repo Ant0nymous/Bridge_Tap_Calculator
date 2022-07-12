@@ -6,9 +6,10 @@ function Calculate() {
   let newDeltD = deltD - 50
   let internal = newDeltD > bridgeT
   if (internal === true) {
-    tech = "Copy into your notes\n\nEstimated DELT Distance - 50m = " + newDeltD + "m\nBridge Tap Distance = " + bridgeT + "m\nDELT Distance > Bridge Tap Distance \nInternal Bridge Tap!\nPaid Telstra Technician, Electrician or \nACMA Cabler Required to Remove Bridge Tap"
+    tech = "Copy into your notes<br><br>Estimated DELT Distance " + deltD + "m - 50m = " + newDeltD + "m<br>Bridge Tap Distance = " + bridgeT + "m<br>DELT Distance > Bridge Tap Distance <br>Internal Bridge Tap!<br>Paid Telstra Technician, Electrician or <br>ACMA Cabler Required to Remove Bridge Tap"
   }
   else if (internal === false) {
-    tech = "Copy into your notes\n\nEstimated DELT Distance - 50m = " + newDeltD + "m\nBridge Tap Distance = " + bridgeT + "m\nDELT Distance < Bridge Tap Distance \nExternal Bridge Tap! \nNBN Technician Required to Remove Bridge Tap"
+    tech = "Copy into your notes<br><br>Estimated DELT Distance " + deltD + "m - 50m = " + newDeltD + "m<br>Bridge Tap Distance = " + bridgeT + "m<br>DELT Distance < Bridge Tap Distance <br>External Bridge Tap!<br>NBN Technician Required to Remove Bridge Tap"
   }
-  alert(tech);}
+  document.getElementById("tech").innerHTML = tech.toString();
+  }
