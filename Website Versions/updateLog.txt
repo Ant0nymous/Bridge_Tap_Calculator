@@ -18,3 +18,13 @@ _____________________
 Version 4
 
 Added calculation into the alert function for agents to add to their notes
+_____________________
+Version 5
+
+Unable to copy notes from alert function
+Removed the alert function and added the ability for the script to print on html page
+_____________________
+Version 6
+
+Updated the html and css files with flex box
+_____________________
